@@ -1,95 +1,202 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+"use client";
+
+import { useState } from "react";
+import {
+  Box,
+  Button,
+  FormControl,
+  FormLabel,
+  Input,
+  Stack,
+  Text,
+  Select,
+  List,
+  ListItem,
+  ChakraProvider,
+} from "@chakra-ui/react";
+import { Condition, Recipe } from "./types";
+import { ingredientOptions } from "./ingredientOptions";
 
 export default function Home() {
+  const [ingredients, setIngredients] = useState<string[]>([]);
+  const [condition, setCondition] = useState<Condition>(Condition.OR);
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [suggestedIngredients, setSuggestedIngredients] = useState<string[]>(
+    []
+  );
+
+  const handleIngredientChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.trim();
+    if (value) {
+      setIngredients((prevIngredients) => [...prevIngredients, value]);
+    }
+  };
+
+  const handleIngredientKeyDown = (
+    e: React.KeyboardEvent<HTMLInputElement>
+  ) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const value = (e.target as HTMLInputElement).value.trim();
+      if (value) {
+        setIngredients((prevIngredients) => [...prevIngredients, value]);
+      }
+    }
+  };
+
+  const handleIngredientRemove = (index: number) => {
+    setIngredients((prevIngredients) =>
+      prevIngredients.filter((_, i) => i !== index)
+    );
+  };
+
+  const handleConditionChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const value = e.target.value as Condition;
+    setCondition(value);
+  };
+
+  const handleSearch = () => {
+    setIsLoading(true);
+    fetch(
+      `/api/recipes?ingredients=${ingredients.join(",")}&condition=${condition}`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setRecipes(data.recipes);
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching recipes:", error);
+        setIsLoading(false);
+      });
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.trim();
+    if (value) {
+      const suggested = ingredientOptions.filter((option) =>
+        option.toLowerCase().startsWith(value.toLowerCase())
+      );
+      setSuggestedIngredients(suggested);
+    } else {
+      setSuggestedIngredients([]);
+    }
+  };
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setIngredients((prevIngredients) => [...prevIngredients, suggestion]);
+    setSuggestedIngredients([]);
+  };
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
+    <ChakraProvider>
+      <Box p={4} maxWidth="400px" mx="auto">
+        <Stack spacing={4}>
+          <FormControl id="ingredients">
+            <FormLabel>Ingredients</FormLabel>
+            <Input
+              type="text"
+              placeholder="Enter ingredient..."
+              onChange={handleInputChange}
+              onKeyDown={handleIngredientKeyDown}
+              autoFocus
             />
-          </a>
-        </div>
-      </div>
+            {suggestedIngredients.length > 0 && (
+              <List mt={2}>
+                {suggestedIngredients.map((suggestion, index) => (
+                  <ListItem
+                    key={index}
+                    cursor="pointer"
+                    onClick={() => handleSuggestionClick(suggestion)}
+                  >
+                    {suggestion}
+                  </ListItem>
+                ))}
+              </List>
+            )}
+          </FormControl>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+          <Box>
+            {ingredients.map((ingredient, index) => (
+              <Box
+                key={index}
+                display="inline-flex"
+                alignItems="center"
+                borderRadius="md"
+                border="1px"
+                borderColor="gray.200"
+                px={2}
+                py={1}
+                mr={2}
+                mt={2}
+                lineHeight="1"
+              >
+                <Text>{ingredient}</Text>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  ml={2}
+                  onClick={() => handleIngredientRemove(index)}
+                >
+                  X
+                </Button>
+              </Box>
+            ))}
+          </Box>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+          <FormControl id="condition">
+            <FormLabel>Condition</FormLabel>
+            <Select value={condition} onChange={handleConditionChange}>
+              <option value={Condition.OR}>OR</option>
+              <option value={Condition.AND}>AND</option>
+            </Select>
+          </FormControl>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+          <Button
+            colorScheme="teal"
+            onClick={handleSearch}
+            isLoading={isLoading}
+          >
+            Search
+          </Button>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+          {recipes.length > 0 && (
+            <Box mt={4}>
+              <Text fontSize="xl" fontWeight="bold" mb={2}>
+                Search Results
+              </Text>
+              <Stack spacing={4}>
+                {recipes.map((result, index) => (
+                  <Box
+                    key={index}
+                    borderWidth="1px"
+                    borderRadius="md"
+                    p={4}
+                    my={2}
+                  >
+                    <Text fontSize="lg" fontWeight="bold" mb={2}>
+                      {result.name}
+                    </Text>
+                    <Text>
+                      👩‍🍳{" "}
+                      {result.ingredients.map((ingredient, i) => (
+                        <span key={i}>
+                          {i > 0 && ", "}
+                          {ingredient.quantity}{" "}
+                          <strong>{ingredient.name}</strong>
+                        </span>
+                      ))}
+                    </Text>
+                    <Text>❤️ {result.heartsRecovered}</Text>
+                    <Text>✳️ {result.buff}</Text>
+                  </Box>
+                ))}
+              </Stack>
+            </Box>
+          )}
+        </Stack>
+      </Box>
+    </ChakraProvider>
+  );
 }

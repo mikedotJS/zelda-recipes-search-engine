@@ -1,0 +1,3071 @@
+{
+  "recipes": [
+    {
+      "name": "Hearty Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 15,
+      "buff": "Hearty"
+    },
+    {
+      "name": "Gourmet Meat Curry",
+      "ingredients": [
+        {
+          "name": "Gourmet Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 20,
+      "buff": "Attack Power Boost"
+    },
+    {
+      "name": "Veggie Cream Soup",
+      "ingredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Carrot",
+          "quantity": 1
+        },
+        {
+          "name": "Mushroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "Health Regeneration"
+    },
+    {
+      "name": "Prime Meat Stew",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "Health Regeneration"
+    },
+    {
+      "name": "Seafood Paella",
+      "ingredients": [
+        {
+          "name": "Porgy",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Safflina",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "Stamina Restoration"
+    },
+    {
+      "name": "Fried Bananas",
+      "ingredients": [
+        {
+          "name": "Palm Fruit",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Cane Sugar",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Attack Power Boost"
+    },
+    {
+      "name": "Glazed Mushrooms",
+      "ingredients": [
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Defense Boost"
+    },
+    {
+      "name": "Pumpkin Stew",
+      "ingredients": [
+        {
+          "name": "Fortified Pumpkin",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "Health Regeneration"
+    },
+    {
+      "name": "Salt-Grilled Crab",
+      "ingredients": [
+        {
+          "name": "Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Defense Boost"
+    },
+    {
+      "name": "Mighty Veggie Rice Balls",
+      "ingredients": [
+        {
+          "name": "Mighty Bananas",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Ironshroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Attack Power Boost"
+    },
+    {
+      "name": "Copious Fried Wild Greens",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Ironshroom",
+          "quantity": 1
+        },
+        {
+          "name": "Sanke Carp",
+          "quantity": 1
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "Defense Boost"
+    },
+    {
+      "name": "Creamy Heart Soup",
+      "ingredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "Hearty"
+    },
+    {
+      "name": "Energizing Salt-Grilled Greens",
+      "ingredients": [
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Stamella Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Stamina Restoration"
+    },
+    {
+      "name": "Meaty Rice Balls",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Ironshroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "Defense Boost"
+    },
+    {
+      "name": "Fried Egg and Rice",
+      "ingredients": [
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Health Regeneration"
+    },
+    {
+      "name": "Staminoka Bass Meunière",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Stamina Restoration"
+    },
+    {
+      "name": "Hasty Veggie Rice Balls",
+      "ingredients": [
+        {
+          "name": "Swift Carrot",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rushroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Movement Speed Boost"
+    },
+    {
+      "name": "Curious Quiche",
+      "ingredients": [
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "Health Regeneration"
+    },
+    {
+      "name": "Creamy Meat Soup",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "Health Regeneration"
+    },
+    {
+      "name": "Sneaky Salt-Grilled Fish",
+      "ingredients": [
+        {
+          "name": "Silent Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Stealthfin Trout",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Stealth Boost"
+    },
+    {
+      "name": "Mighty Porgy Meunière",
+      "ingredients": [
+        {
+          "name": "Mighty Porgy",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Attack Power Boost"
+    },
+    {
+      "name": "Copious Fried Wild Greens",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Ironshroom",
+          "quantity": 1
+        },
+        {
+          "name": "Sanke Carp",
+          "quantity": 1
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "Defense Boost"
+    },
+    {
+      "name": "Curious Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Stamella Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Endura Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Extra Stamina"
+    },
+    {
+      "name": "Sneaky Steamed Fish",
+      "ingredients": [
+        {
+          "name": "Silent Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Stealthfin Trout",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Stealth Boost"
+    },
+    {
+      "name": "Tough Meat-Stuffed Pumpkin",
+      "ingredients": [
+        {
+          "name": "Ironshroom",
+          "quantity": 1
+        },
+        {
+          "name": "Fortified Pumpkin",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "Defense Boost"
+    },
+    {
+      "name": "Hasty Veggie Rice Balls",
+      "ingredients": [
+        {
+          "name": "Swift Carrot",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rushroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Movement Speed Boost"
+    },
+    {
+      "name": "Sneaky Seafood Skewers",
+      "ingredients": [
+        {
+          "name": "Silent Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Stealthfin Trout",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "Stealth Boost"
+    },
+    {
+      "name": "Hasty Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Swift Carrot",
+          "quantity": 1
+        },
+        {
+          "name": "Rushroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Movement Speed Boost"
+    },
+    {
+      "name": "Sneaky Meat Skewer",
+      "ingredients": [
+        {
+          "name": "Silent Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Stealth Boost"
+    },
+    {
+      "name": "Copious Simmered Fruit",
+      "ingredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Acorn",
+          "quantity": 1
+        },
+        {
+          "name": "Apple",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Defense Boost"
+    },
+    {
+      "name": "Hasty Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Swift Carrot",
+          "quantity": 1
+        },
+        {
+          "name": "Rushroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Movement Speed Boost"
+    },
+    {
+      "name": "Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 1,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Mushroom",
+      "ingredients": [
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Fried Wild Greens",
+      "ingredients": [
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 1,
+      "buff": "None"
+    },
+    {
+      "name": "Simmered Fruit",
+      "ingredients": [
+        {
+          "name": "Apple",
+          "quantity": 1
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Honeyed Fruits",
+      "ingredients": [
+        {
+          "name": "Apple",
+          "quantity": 1
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Spicy Simmered Fruit",
+      "ingredients": [
+        {
+          "name": "Apple",
+          "quantity": 1
+        },
+        {
+          "name": "Spicy Pepper",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "Spicy"
+    },
+    {
+      "name": "Fruit Pie",
+      "ingredients": [
+        {
+          "name": "Apple",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Cane Sugar",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Energizing Fish Skewer",
+      "ingredients": [
+        {
+          "name": "Sanke Carp",
+          "quantity": 1
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Stamina Restoration"
+    },
+    {
+      "name": "Honeyed Fruits and Mushrooms",
+      "ingredients": [
+        {
+          "name": "Apple",
+          "quantity": 1
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Herb Sauté",
+      "ingredients": [
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 1,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Greens",
+      "ingredients": [
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Steamed Mushrooms",
+      "ingredients": [
+        {
+          "name": "Hylian Shroom",
+          "quantity": 2
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Glazed Mushrooms",
+      "ingredients": [
+        {
+          "name": "Hylian Shroom",
+          "quantity": 2
+        },
+        {
+          "name": "Courser Bee Honey",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Veggie Rice Balls",
+      "ingredients": [
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Herb Roasted Radishes",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Roasted Radishes",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Steamed Mushrooms",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Truffle",
+          "quantity": 1
+        },
+        {
+          "name": "Big Hearty Radish",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Big Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Truffle",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Prime Meat",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Seared Prime Steak",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Prime Meat Stew",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Prime Spiced Meat Skewer",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Spicy Pepper",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "Spicy"
+    },
+    {
+      "name": "Prime Meat Curry",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 7,
+      "buff": "None"
+    },
+    {
+      "name": "Prime Meat and Rice Bowl",
+      "ingredients": [
+        {
+          "name": "Raw Prime Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Gourmet Meat Curry",
+      "ingredients": [
+        {
+          "name": "Raw Gourmet Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 15,
+      "buff": "None"
+    },
+    {
+      "name": "Gourmet Meat and Rice Bowl",
+      "ingredients": [
+        {
+          "name": "Raw Gourmet Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 12,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Gourmet Meat",
+      "ingredients": [
+        {
+          "name": "Raw Gourmet Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Gourmet Spiced Meat Skewer",
+      "ingredients": [
+        {
+          "name": "Raw Gourmet Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Spicy Pepper",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "Spicy"
+    },
+    {
+      "name": "Meat and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Meat and Rice Bowl",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Meat Curry",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Meat",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Spicy Meat Skewer",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Spicy Pepper",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "Spicy"
+    },
+    {
+      "name": "Steamed Meat",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Fried Wild Greens",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Big Hearty Radish",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 15,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Steamed Meat",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Truffle",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Meat and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Truffle",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Salt-Grilled Meat",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Spiced Meat Skewer",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Spicy Pepper",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "Spicy"
+    },
+    {
+      "name": "Meat and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Meat and Rice Bowl",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Meat Curry",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Meat",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Spicy Meat Skewer",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Spicy Pepper",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "Spicy"
+    },
+    {
+      "name": "Steamed Meat",
+      "ingredients": [
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 3,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Fried Wild Greens",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Big Hearty Radish",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 15,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Steamed Meat",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Truffle",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Meat and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Truffle",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Salt-Grilled Meat",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Spiced Meat Skewer",
+      "ingredients": [
+        {
+          "name": "Hearty Radish",
+          "quantity": 1
+        },
+        {
+          "name": "Raw Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Spicy Pepper",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "Spicy"
+    },
+    {
+      "name": "Hearty Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Hearty Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 10,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Vegetable Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Curry Pilaf",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Mushroom Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Vegetable Curry",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Stir-Fry",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Simmered Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Fish Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Fish and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Curry",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 7,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Stir-Fry",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Simmered Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Fish Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Fish and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Curry",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 7,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Fried Rice",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Simmered Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Fish Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Fish and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Curry",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 7,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Fried Rice",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Fish and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Curry",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 7,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Fried Rice",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Simmered Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Fish Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Fish and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Curry",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 7,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Fried Rice",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Simmered Fish",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hyrule Herb",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 5,
+      "buff": "None"
+    },
+    {
+      "name": "Fish Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 2,
+      "buff": "None"
+    },
+    {
+      "name": "Fish and Mushroom Skewer",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Shroom",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Curry",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goron Spice",
+          "quantity": 1
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 7,
+      "buff": "None"
+    },
+    {
+      "name": "Seafood Fried Rice",
+      "ingredients": [
+        {
+          "name": "Staminoka Bass",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salt-Grilled Crab Legs",
+      "ingredients": [
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Omelet with Rice",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Crab",
+          "quantity": 1
+        },
+        {
+          "name": "Bird Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 9,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Meunière",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 6,
+      "buff": "None"
+    },
+    {
+      "name": "Salmon Risotto",
+      "ingredients": [
+        {
+          "name": "Hearty Salmon",
+          "quantity": 1
+        },
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Goat Butter",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 8,
+      "buff": "None"
+    },
+    {
+      "name": "Crab Risotto",
+      "ingredients": [
+        {
+          "name": "Hylian Rice",
+          "quantity": 1
+        },
+        {
+          "name": "Rock Salt",
+          "quantity": 1
+        },
+        {
+          "name": "Tabantha Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Hearty Blueshell Snail",
+          "quantity": 1
+        }
+      ],
+      "heartsRecovered": 4,
+      "buff": "None"
+    }
+  ]
+}
